@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39599A4BD21DED683AF6095C /* Pods_km_ios_client.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CC4F7A346BA5BF596B300A /* Pods_km_ios_client.framework */; };
+		7FD40D9A21E1969C007E453D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD40D9921E1969C007E453D /* AppDelegate.m */; };
+		7FD40DA021E1969C007E453D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD40D9E21E1969C007E453D /* Main.storyboard */; };
+		7FD40DA221E1969F007E453D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FD40DA121E1969F007E453D /* Assets.xcassets */; };
+		7FD40DA521E1969F007E453D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD40DA321E1969F007E453D /* LaunchScreen.storyboard */; };
+		7FD40DA821E1969F007E453D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD40DA721E1969F007E453D /* main.m */; };
+		7FD40DB021E1972D007E453D /* ZWWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD40DAE21E1972D007E453D /* ZWWebViewVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		776E70D1F5A713351864CEFA /* Pods-km-ios-client.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-km-ios-client.release.xcconfig"; path = "Pods/Target Support Files/Pods-km-ios-client/Pods-km-ios-client.release.xcconfig"; sourceTree = "<group>"; };
+		7FD40D9521E1969C007E453D /* km-ios-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "km-ios-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FD40D9821E1969C007E453D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7FD40D9921E1969C007E453D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7FD40D9F21E1969C007E453D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FD40DA121E1969F007E453D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FD40DA421E1969F007E453D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FD40DA621E1969F007E453D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FD40DA721E1969F007E453D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FD40DAE21E1972D007E453D /* ZWWebViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWWebViewVC.m; sourceTree = "<group>"; };
+		7FD40DAF21E1972D007E453D /* ZWWebViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWWebViewVC.h; sourceTree = "<group>"; };
+		BB2D861AD8F9A562A1D54708 /* Pods-km-ios-client.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-km-ios-client.debug.xcconfig"; path = "Pods/Target Support Files/Pods-km-ios-client/Pods-km-ios-client.debug.xcconfig"; sourceTree = "<group>"; };
+		C7CC4F7A346BA5BF596B300A /* Pods_km_ios_client.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_km_ios_client.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FD40D9221E1969C007E453D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39599A4BD21DED683AF6095C /* Pods_km_ios_client.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5331749DACFC6D80E5BA9B95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7CC4F7A346BA5BF596B300A /* Pods_km_ios_client.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FD40D8C21E1969C007E453D = {
+			isa = PBXGroup;
+			children = (
+				7FD40D9721E1969C007E453D /* km-ios-client */,
+				7FD40D9621E1969C007E453D /* Products */,
+				DDFD7EFF06B98A6E44D6A402 /* Pods */,
+				5331749DACFC6D80E5BA9B95 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7FD40D9621E1969C007E453D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FD40D9521E1969C007E453D /* km-ios-client.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FD40D9721E1969C007E453D /* km-ios-client */ = {
+			isa = PBXGroup;
+			children = (
+				7FD40DAF21E1972D007E453D /* ZWWebViewVC.h */,
+				7FD40DAE21E1972D007E453D /* ZWWebViewVC.m */,
+				7FD40D9821E1969C007E453D /* AppDelegate.h */,
+				7FD40D9921E1969C007E453D /* AppDelegate.m */,
+				7FD40D9E21E1969C007E453D /* Main.storyboard */,
+				7FD40DA121E1969F007E453D /* Assets.xcassets */,
+				7FD40DA321E1969F007E453D /* LaunchScreen.storyboard */,
+				7FD40DA621E1969F007E453D /* Info.plist */,
+				7FD40DA721E1969F007E453D /* main.m */,
+			);
+			path = "km-ios-client";
+			sourceTree = "<group>";
+		};
+		DDFD7EFF06B98A6E44D6A402 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB2D861AD8F9A562A1D54708 /* Pods-km-ios-client.debug.xcconfig */,
+				776E70D1F5A713351864CEFA /* Pods-km-ios-client.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FD40D9421E1969C007E453D /* km-ios-client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FD40DAB21E1969F007E453D /* Build configuration list for PBXNativeTarget "km-ios-client" */;
+			buildPhases = (
+				561BAE5A4A6488B561412659 /* [CP] Check Pods Manifest.lock */,
+				7FD40D9121E1969C007E453D /* Sources */,
+				7FD40D9221E1969C007E453D /* Frameworks */,
+				7FD40D9321E1969C007E453D /* Resources */,
+				BA354A5969EA5FBBF5FAAEC6 /* [CP] Embed Pods Frameworks */,
+				5FF2D9EAD4A81D510D5E7D13 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "km-ios-client";
+			productName = "km-ios-client";
+			productReference = 7FD40D9521E1969C007E453D /* km-ios-client.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FD40D8D21E1969C007E453D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = com.huibei;
+				TargetAttributes = {
+					7FD40D9421E1969C007E453D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 7FD40D9021E1969C007E453D /* Build configuration list for PBXProject "km-ios-client" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FD40D8C21E1969C007E453D;
+			productRefGroup = 7FD40D9621E1969C007E453D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FD40D9421E1969C007E453D /* km-ios-client */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FD40D9321E1969C007E453D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FD40DA521E1969F007E453D /* LaunchScreen.storyboard in Resources */,
+				7FD40DA221E1969F007E453D /* Assets.xcassets in Resources */,
+				7FD40DA021E1969C007E453D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		561BAE5A4A6488B561412659 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5FF2D9EAD4A81D510D5E7D13 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-km-ios-client/Pods-km-ios-client-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA354A5969EA5FBBF5FAAEC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-km-ios-client/Pods-km-ios-client-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FD40D9121E1969C007E453D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FD40DA821E1969F007E453D /* main.m in Sources */,
+				7FD40D9A21E1969C007E453D /* AppDelegate.m in Sources */,
+				7FD40DB021E1972D007E453D /* ZWWebViewVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7FD40D9E21E1969C007E453D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FD40D9F21E1969C007E453D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FD40DA321E1969F007E453D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FD40DA421E1969F007E453D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FD40DA921E1969F007E453D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7FD40DAA21E1969F007E453D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FD40DAC21E1969F007E453D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB2D861AD8F9A562A1D54708 /* Pods-km-ios-client.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VE3N87A48U;
+				INFOPLIST_FILE = "km-ios-client/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huibei.km-ios-client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FD40DAD21E1969F007E453D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 776E70D1F5A713351864CEFA /* Pods-km-ios-client.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VE3N87A48U;
+				INFOPLIST_FILE = "km-ios-client/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huibei.km-ios-client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FD40D9021E1969C007E453D /* Build configuration list for PBXProject "km-ios-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FD40DA921E1969F007E453D /* Debug */,
+				7FD40DAA21E1969F007E453D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FD40DAB21E1969F007E453D /* Build configuration list for PBXNativeTarget "km-ios-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FD40DAC21E1969F007E453D /* Debug */,
+				7FD40DAD21E1969F007E453D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FD40D8D21E1969C007E453D /* Project object */;
+}
