@@ -46,7 +46,7 @@
     [self.view addSubview:self.webView];
     [self.progressView.layer addSublayer:self.progresslayer];
     //设置导航栏item样式
-    [self setStatusBarBackgroundColor: [UIColor colorWithRed:255.0/255 green:134.0/255 blue:56.0/255 alpha:1]];
+    [self setStatusBarBackgroundColor: [UIColor colorWithRed:74.0/255 green:144.0/255 blue:226.0/255 alpha:1]];
     self.navigationController.navigationBar.barStyle = UIBarStyleDefault;
     [SVProgressHUD show];
 }
@@ -267,7 +267,7 @@
     if (_progresslayer == nil) {
         _progresslayer = [CALayer layer];
         _progresslayer.frame = CGRectMake(0, 0, 0, 3);
-        _progresslayer.backgroundColor = [UIColor colorWithRed:1 green:0.525 blue:0.219 alpha:1].CGColor;
+        _progresslayer.backgroundColor = [UIColor colorWithRed:74.0/255 green:144.0/255 blue:226.0/255 alpha:1].CGColor;
     }
     return _progresslayer;
 }
