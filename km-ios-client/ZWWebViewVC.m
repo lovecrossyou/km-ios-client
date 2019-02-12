@@ -46,7 +46,7 @@
     [self.view addSubview:self.webView];
     [self.progressView.layer addSublayer:self.progresslayer];
     //设置导航栏item样式
-    [self setStatusBarBackgroundColor: [UIColor colorWithRed:74.0/255 green:144.0/255 blue:226.0/255 alpha:1]];
+    [self setStatusBarBackgroundColor: [UIColor colorWithRed:124.0/255 green:167.0/255 blue:210.0/255 alpha:1]];
     self.navigationController.navigationBar.barStyle = UIBarStyleDefault;
     [SVProgressHUD show];
 }
@@ -198,7 +198,7 @@
 
 #pragma mark - 懒加载
 - (WKWebView *)webView{
-    NSString* url = @"http://47.94.209.108:7004/" ;
+    NSString* url = @"http://47.94.169.143:8800/" ;
     if (_webView == nil) {
         WKWebViewConfiguration *configuration = [[WKWebViewConfiguration alloc] init];
         WKUserContentController *userController = [[WKUserContentController alloc] init];
